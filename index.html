@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Receta de Empanadas">
+    <meta name="keywords" content="Comidas, Algo sencillo, Empanadas">
+    <meta name="author" content="Elias Franco Valles">
+    <title>Receta para empanadas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/79827d5038.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Como hacer empanadas de carne</h1>
+        <br>
+        <p>Musica para escuchar mientras cocinas</p>
+        <audio src="Sonidos/Enganchados de las mejores chacareras.mp3" controls></audio>
+        <br>
+        <div>
+            <img src="https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada-640x480.png" alt="empanada">
+        </div>
+    </header>
+    <nav>
+        <p>Otras recetas de empanadas:</p>
+        <br>
+        <div id="links">
+            <div class="card" style="width: 18rem;">
+                <img src="IMG/queso.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Empanadas de Queso</h5>
+                    <p class="card-text">Link a empanadas de Queso</p>
+                    <a target="_blank" href="https://www.recetasgratis.net/receta-de-empanadas-de-queso-sencillas-9461.html" class="btn btn-primary">Ir a la pagina</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://img-global.cpcdn.com/recipes/3ff72ea77539ce8b/400x400cq70/photo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Empanadas de Zapallo</h5>
+                    <p class="card-text">Link a empanadas de Zapallo</p>
+                    <a target="_blank" href="https://cookpad.com/ar/recetas/2584264-empanadas-de-zapallo-y-queso" class="btn btn-primary">Ir a la pagina</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Empanadas de Pollo</h5>
+                    <p class="card-text">Link a empanadas de Pollo</p>
+                    <a target="_blank" href="https://alicante.com.ar/263-receta-empanadas-de-pollo" class="btn btn-primary">Ir a la pagina</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Empanadas de Champiñones</h5>
+                    <p class="card-text">Link a empanadas de Champiñones</p>
+                    <a target="_blank" href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/empanadas-de-champinones/" class="btn btn-primary">Ir a la pagina</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Contactos</h5>
+                    <p class="card-text">Link a nuestros Contactos</p>
+                    <a target="_blank" href="contactos.html" class="btn btn-primary">Ir a la pagina</a>
+                </div>
+            </div>
+        </div>
+        <!--<div>
+            <ol>
+                <li><a target="_blank" href="https://www.recetasgratis.net/receta-de-empanadas-de-queso-sencillas-9461.html">Empanadas de queso</li>
+                <li><a target="_blank" href="https://cookpad.com/ar/recetas/2584264-empanadas-de-zapallo-y-queso">Empanadas de Zapallo</li>
+                <li><a target="_blank" href="https://alicante.com.ar/263-receta-empanadas-de-pollo">Empanadas de pollo</li>
+                <li><a target="_blank" href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/empanadas-de-champinones/">Empanadas de champiniones</li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ol>
+        </div>-->
+    </nav>
+    <main>
+        <section>
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>12 tapas para empanadas</li>
+                <br>
+                <li>1/2 kg. de carne picada</li>
+                <br>
+                <li>1 cebolla</li>
+                <br>
+                <li>2 dientes de ajo</li>
+                <br>
+                <li>1/2 pimiento morrón rojo</li>
+                <br>
+                <li>1 tomate</li>
+                <br>
+                <li>2 cdas. de puré de tomates</li>
+                <br>
+                <li>1 puñado de aceitunas</li>
+                <br>
+            </ul>
+            <br>
+            <h2>Receta de las empanadas</h2>
+            <ol>
+                <li>
+                    En una olla con aceite caliente agregar la cebolla y el morrón.
+                    Dejar dorar unos minutos y cuando estén a medio cocer, agregar
+                    el ajo y un poco de sal.
+                </li>
+                <br>
+                <li>
+                    Subir el fuego y agregar de una toda la carne picada. Mover la
+                    carne para que no quede pegada. Cuando la carne esté sellada
+                    agregar el tomate en cubos y las 2 cdas de puré de tomates.
+                    Condimentar y mezclar bien. Tapar (no del todo) y dejar cocinar
+                    una media hora revolviendo de a poco.
+                </li>
+                <br>
+                <li>
+                    Sacar del fuego y dejar enfriar en la olla. Agregar las aceitunas
+                    picadas y mezclar bien. (En este paso pueden agregar cualquier otra
+                    cosa que le quieran poner: huevo duro, pasas, papa, etc)
+                </li>
+                <br>
+                <li>
+                    Repartir el relleno en las tapas de empanada, y cerrar con un repulgue
+                </li>
+                <br>
+                <li>
+                    Poner nuestras empanadas de carne en una placa y llevar a horno fuerte hasta que estén doradas!
+                </li>
+            </ol>
+        </section>
+        <aside>
+            <div>
+                <h2>Asi quedan!!</h2>
+                <img src="https://www.paulinacocina.net/wp-content/uploads/2018/05/empanada-640x480.png" alt="empanada">
+            </div>
+            <br>
+            <div id="video">
+
+                <p>Video de como hacer repulges de empanadas</p>
+                <iframe src="https://www.youtube.com/embed/OnaXrtfyJMc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <br>
+            <div id="mapa">
+                <p>Zona de empanadas</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11110125.173879728!2d-72.82742683583679!3d-36.05338088270757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses!2sar!4v1630415856552!5m2!1ses!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <br>
+        <br>
+        <h2>Pagina realizada por Elias Franco Valles</h2>
+        <p>contactanos por:</p>
+        <li><a href="https://wa.me/5491130952918" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+    </footer>
+    <div>
+        <a title="Mi Wathsapp" id="Wicono" href="https://wa.me/5491130952918" target="_blank"><i
+                class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
